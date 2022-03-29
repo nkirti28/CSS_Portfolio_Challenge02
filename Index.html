@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kirti Shelar - Professional Portfolio</title>
     <link
       rel="stylesheet"
@@ -23,20 +24,47 @@
     </header>
     <!-- nav bar-->
     <nav class="border-bottom">
-      <a href="#">About Me</a>
-      <a href="#">Projects</a>
+      <a href="#AboutMe">About Me</a>
+      <a href="#Projects">Projects</a>
       <a href="#">Contact</a>
       <a href="#">Resume</a>
     </nav>
-    <section class="container block">
-      <div class="">
+    <section id="AboutMe" class="block">
+      <div class="flexCol_1">
         <h1>About Me</h1>
-        <p>I am a experienced web Developer</p>
+      </div>
+      <div class="flexCol_2">
+        <h3>Hi, I'am Kirti,</h3>
+        <p>
+          an experienced software developer specialized in front-end and
+          back-end developement.
+        </p>
       </div>
     </section>
-    <section>
-      <div>
-        
+    <section id="Projects" class="block">
+      <div class="flexCol_1">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects">
+        <div>
+          <h4>Run-Buddy</h4>
+          <img src="./assets/images/hero-bg.jpg" alt="run-buddy project" />
+        </div>
+        <div>
+          <h4>Calculator</h4>
+          <img
+            src="./assets//images/calculator.png"
+            alt="calculator in html css"
+          />
+        </div>
+        <div>
+          <h4>RPA Project-Ui Path</h4>
+          <img src="./assets/images/UiPath-og.png" alt="ui path RPA project" />
+        </div>
+        <div>
+          <h4>React JS</h4>
+          <img src="./assets/images/reactjs.avif" alt="react js project" />
+        </div>
       </div>
     </section>
     <footer class="sticky-footer border-top h6">

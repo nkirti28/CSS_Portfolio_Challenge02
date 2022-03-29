@@ -11,7 +11,7 @@ header {
   background: #13293d;
   color: #fff;
 }
-img {
+.header img {
   width: 100px;
   height: 100px;
   border-radius: 70%;
@@ -37,12 +37,51 @@ footer {
   display: block;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-}
 .block {
-  display: block;
+  margin: 30px auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexCol_1 {
+  color: #024e76;
+  font-size: 20px;
+  flex: 1 20%;
+  text-align: center;
+}
+.flexCol_2 {
+  flex: 2 70%;
+  background-color: #13293d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 20px;
+  margin-right: 10px;
+}
+.projects {
+  background-image: url("../images/bg-portfolio.png");
+  flex: 2 70%;
+  text-align: center;
+  padding: 20px 20px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h4 {
+  color: darkgoldenrod;
+}
+.projects img {
+  height: 100px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.projects img:hover {
+  box-shadow: 10px 10px 5px #13293d;
 }
 .border-bottom {
   border-bottom-style: solid;
