@@ -30,11 +30,11 @@ The following GIF Image demonstrates the web application's default appearance an
 
 ## SOURCES
 
-<!-- Bootstrap CSS -->
+### Bootstrap CSS
 
       ["Bootsrap CSS for icons "]]"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 
-    <!-- Bootstrap Font Awesome Icon CSS -->
+### Bootstrap Font Awesome Icon CSS 
 
       [Bootsrap CSS for icons ]]"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
