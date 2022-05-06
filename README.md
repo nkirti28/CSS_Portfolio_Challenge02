@@ -1,4 +1,4 @@
-# CSS_Portfolio_Challenge02 - Kirti Shelar - Professtional Portfolio
+# - Kirti Shelar - Professtional Portfolio
 
 ## USER STORY
 
@@ -34,13 +34,13 @@ The following GIF Image demonstrates the web application's default appearance an
 
       ["Bootsrap CSS for icons "]]"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 
-### Bootstrap Font Awesome Icon CSS 
+### Bootstrap Font Awesome Icon CSS
 
       [Bootsrap CSS for icons ]]"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
 ## WEBSITE
 
-URL of deployed application - https://nkirti28.github.io/CSS_Portfolio_Challenge02/
+URL of deployed application - https://nkirti28.github.io/KirtiShelar_Portfolio/
 
 ## Contribution
 
